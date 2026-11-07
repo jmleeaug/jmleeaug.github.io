@@ -1,0 +1,10 @@
+2026-11-07 기존 공식 Wix 공개 페이지에서 확보한 표시용 이미지. 원본 사진을 재생성하거나 변경하지 않았습니다.
+home.avif: https://www.jiminleemusic.com/
+about.avif: https://www.jiminleemusic.com/about
+contact.avif: https://www.jiminleemusic.com/contact
+
+ABOUT 원문 및 참여 음반 10장: https://www.jiminleemusic.com/about / https://www.jiminleemusic.com/music
+대표 음반 커버·개별 링크·공식 임베드: https://jiminlee.bandcamp.com/music
+원문 프로필의 현직·최근작 표현은 최신 확인 없이 보존했습니다.
+
+jimin-live-portrait.png: 사용자 제공 KakaoTalk_20191124_204435605_05.jpg의 양쪽 머리를 귀 뒤로 넘긴 편집본. 사용자 승인 후 맨 위 사진에 적용.
