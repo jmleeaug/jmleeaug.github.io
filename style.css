@@ -35,3 +35,16 @@
 @media(max-width:760px){.sidebar{display:flex;flex-direction:column;align-items:flex-start;gap:0;min-height:0;margin-bottom:30px}.artist-name{margin-bottom:18px}.sidebar nav{gap:18px}.sidebar .social{margin-top:18px;align-items:flex-start;gap:4px}.social a{justify-content:flex-start;width:44px;height:44px}.social svg{margin-left:2px}}
 
 @media(min-width:761px){main{padding-top:96.890625px}}
+
+/* Mobile navigation stays visible while the page scrolls. */
+@media(max-width:760px){html{scroll-padding-top:calc(var(--mobile-header-height,156px) + 16px)}.sidebar{position:sticky;top:0;z-index:20;background:#fff;display:flex;flex-direction:column;align-items:flex-start;margin:-24px -20px 28px;padding:calc(12px + env(safe-area-inset-top,0px)) 20px 8px;width:calc(100% + 40px);gap:0;border-bottom:1px solid #f0f0f0}.artist-name{margin:0}.handwritten-name{width:150px}.sidebar nav{gap:22px;flex-wrap:nowrap}.sidebar .social{display:flex;flex-direction:row;align-items:center;flex-wrap:nowrap;gap:8px;margin-top:0}.social a{width:44px;height:44px;justify-content:flex-start}.social svg{margin-left:2px}main{position:relative;z-index:0}}
+@media(max-width:360px){.sidebar{margin-left:-16px;margin-right:-16px;margin-top:-22px;padding-left:16px;padding-right:16px;width:calc(100% + 32px)}}
+
+/* Airier mobile masthead without a boxed divider. */
+@media(max-width:760px){.sidebar{border-bottom:0}.sidebar .artist-name{margin-bottom:18px}}
+
+/* Shared mobile right edge for navigation and social icons. */
+@media(max-width:760px){.sidebar nav,.sidebar .social{width:200px;max-width:100%;justify-content:space-between;gap:0}.sidebar nav a{padding-left:0;padding-right:0}.sidebar .social a:last-child{justify-content:flex-end}.sidebar .social svg{margin-left:0}}
+
+/* Equal visible icon spacing, retaining the shared menu right edge. */
+@media(max-width:760px){.sidebar .social{width:200px;justify-content:space-between;gap:0}.sidebar .social a,.sidebar .social a:last-child{position:relative;flex:0 0 21px;width:21px;height:44px;justify-content:center}.sidebar .social a::before{content:"";position:absolute;inset:0 -11.5px}.sidebar .social svg{width:21px;height:21px;margin:0}}
