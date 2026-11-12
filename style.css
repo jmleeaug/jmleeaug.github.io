@@ -52,3 +52,6 @@
 /* Keep the duo credit within its cover on mobile. */
 @media(max-width:760px){.co-leader-caption{width:350px;max-width:100%;font-size:11px;line-height:17px;letter-spacing:-.015em}.co-leader-caption p{white-space:nowrap;overflow-wrap:normal;margin:8px 0 0}}
 @media(max-width:360px){.co-leader-caption{font-size:10px;letter-spacing:-.02em}}
+
+/* Burgundy navigation and social interaction states. */
+.sidebar nav a:hover,.sidebar nav a[aria-current],.sidebar-contact a:hover,.social a:hover{color:#7A3E48;text-decoration:none}
