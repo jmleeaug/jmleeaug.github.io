@@ -48,3 +48,7 @@
 
 /* Equal visible icon spacing, retaining the shared menu right edge. */
 @media(max-width:760px){.sidebar .social{width:200px;justify-content:space-between;gap:0}.sidebar .social a,.sidebar .social a:last-child{position:relative;flex:0 0 21px;width:21px;height:44px;justify-content:center}.sidebar .social a::before{content:"";position:absolute;inset:0 -11.5px}.sidebar .social svg{width:21px;height:21px;margin:0}}
+
+/* Keep the duo credit within its cover on mobile. */
+@media(max-width:760px){.co-leader-caption{width:350px;max-width:100%;font-size:11px;line-height:17px;letter-spacing:-.015em}.co-leader-caption p{white-space:nowrap;overflow-wrap:normal;margin:8px 0 0}}
+@media(max-width:360px){.co-leader-caption{font-size:10px;letter-spacing:-.02em}}
