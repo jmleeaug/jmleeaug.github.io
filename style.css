@@ -71,3 +71,6 @@
 
 /* Desktop sidebar spacing: double menu gaps and 1.5 times the icon separation. */
 @media(min-width:761px){.sidebar nav{gap:28px}.sidebar .social{margin-top:48px}}
+
+/* Desktop spacing between the name artwork and the first menu. */
+@media(min-width:761px){.sidebar .artist-name{margin-bottom:66px}}
