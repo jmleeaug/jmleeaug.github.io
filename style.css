@@ -68,3 +68,6 @@
 /* Extra heart spacing follows the desktop/mobile icon direction. */
 .social-shell>.notes-door{transform:translateY(32px)}
 @media(max-width:760px){.social-shell>.notes-door{transform:translateX(32px)}}
+
+/* Desktop sidebar spacing: double menu gaps and 1.5 times the icon separation. */
+@media(min-width:761px){.sidebar nav{gap:28px}.sidebar .social{margin-top:48px}}
