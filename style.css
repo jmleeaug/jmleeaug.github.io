@@ -55,3 +55,16 @@
 
 /* Burgundy navigation and social interaction states. */
 .sidebar nav a:hover,.sidebar nav a[aria-current],.sidebar-contact a:hover,.social a:hover{color:#7A3E48;text-decoration:none}
+
+/* Heart is a sibling of the untouched four-icon group. */
+.social-shell{position:relative}
+.social-shell>.notes-door{position:absolute;left:0;top:calc(100% + 10px);display:flex;align-items:center;justify-content:center;width:28px;height:30px;color:#7A3E48;text-decoration:none;cursor:pointer}
+.social-shell>.notes-door svg{display:block;width:21px;height:21px;opacity:0;transition:opacity .18s ease}
+.social-shell>.notes-door:hover svg,.social-shell>.notes-door:focus-visible svg{opacity:1}
+.social-shell>.notes-door:focus-visible{outline:1px solid #7A3E48;outline-offset:2px}
+@media(max-width:760px){.social-shell>.notes-door{top:0;left:calc(200px + (200px - 21px) / 3 - 21px);width:21px;height:44px}}
+@media(prefers-reduced-motion:reduce){.social-shell>.notes-door svg{transition:none}}
+
+/* Extra heart spacing follows the desktop/mobile icon direction. */
+.social-shell>.notes-door{transform:translateY(32px)}
+@media(max-width:760px){.social-shell>.notes-door{transform:translateX(32px)}}
