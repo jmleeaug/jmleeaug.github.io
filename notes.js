@@ -15,7 +15,7 @@
  script.async=true;
  script.src='https://gc.zgo.at/count.js';
  script.setAttribute('data-goatcounter','https://jmleeaug.goatcounter.com/count');
- script.onload=countArticle;
+ script.onload=()=>{if(typeof window.goatcounter.count==='function'){window.goatcounter.count({path:'/notes.html',title:'게시판 방문',referrer:''});countArticle();}};
  window.addEventListener('hashchange',countArticle);
  document.head.append(script);
 })();
