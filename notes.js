@@ -1,4 +1,14 @@
-(()=>{'use strict';const data=window.NOTES_DATA;const rows=document.getElementById('note-rows'),list=document.getElementById('notes-list'),article=document.getElementById('note-article');const posts=Array.isArray(data?.posts)?data.posts.filter(p=>p&&typeof p.id==='string'&&typeof p.title==='string'&&typeof p.body==='string'&&typeof p.date==='string'):[];posts.sort((a,b)=>b.date.localeCompare(a.date));function renderBody(container,text){
+(()=>{'use strict';const data=window.NOTES_DATA;const rows=document.getElementById('note-rows'),list=document.getElementById('notes-list'),article=document.getElementById('note-article');const posts=Array.isArray(data?.posts)?data.posts.filter(p=>p&&typeof p.id==='string'&&typeof p.title==='string'&&typeof p.body==='string'&&typeof p.date==='string'):[];function postTime(p){
+ const published=Date.parse(p.publishedAt||'');
+ if(Number.isFinite(published))return published;
+ const created=Date.parse(p.createdAt||'');
+ if(Number.isFinite(created))return created;
+ const match=/^p-([0-9a-z]+)-/i.exec(p.id||'');
+ const legacy=match?parseInt(match[1],36):NaN;
+ return Number.isFinite(legacy)?legacy:(Date.parse(p.date)||0);
+}
+function newestFirst(a,b){return postTime(b)-postTime(a)}
+posts.sort(newestFirst);function renderBody(container,text){
 container.replaceChildren();
 const pattern=/https?:\/\/[^\s<>"'“”‘’]+/gi;
 let end=0;
