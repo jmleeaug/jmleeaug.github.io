@@ -12,6 +12,12 @@ window.NOTES_DATA = {
       "title": "압도적 시간이라는 감각에서 생각난 빌리 아일리시의 인터뷰",
       "date": "2026-11-22",
       "body": "“The fact that I'm gonna die one day, and that everyone around me is gonna die, and no one will remember me after a certain point makes me feel so good.”\n\nhttps://youtu.be/B8DE6nKVmtI?si=vn2-GjXudxvBNLb7&t=901"
+    },
+    {
+      "id": "p-mwol5c8d-88ccwa",
+      "title": "기다리기 ",
+      "date": "2026-11-20",
+      "body": "나는 나를, 기다리면서, 너무 오래, 뭘 모르면서, \n서성이며, 초조하게, 무언가를, 아니 나를, \n언젠가 떠나는지, 어디로 떠나는지, 모르면서, 어디로부터 떠나는지, 안 보이면서, \n떠나기만을, 아니, 도착하기를, 언제 도착하는지, 어디로 도착하는지, 모르면서, \n무엇을 건너, 무엇을 피해, 무엇을 위해, 도착하는지, 궁리하면서, 뭘 궁리해야하는지, 모르면서, \n도착하기를, 원하면서, 원하는지 물으면서, 날마다, 시간마다, 나는 나를, 너무 오래, 생각하면서, \n떠나기를, 아니 도착하기를, \n떠나려면 도착해야 하는지, 도착하려면 떠나야 하는지, 너무 오래, 바라면서,\n오지 않는 나를, 떠나지 않는 나를, "
     }
   ]
 };
