@@ -74,3 +74,14 @@
 
 /* Desktop spacing between the name artwork and the first menu. */
 @media(min-width:761px){.sidebar .artist-name{margin-bottom:66px}}
+
+/* Preview additions; established biography typography stays unchanged. */
+.bio .profile-links{display:flex;flex-wrap:wrap;gap:8px 24px}
+.album-meta{font-family:var(--content-font);font-size:12px;font-weight:300;letter-spacing:.04em;color:#666;line-height:19px;margin:10px 0 0;max-width:350px}
+.album-meta+.album-link{margin-top:6px}
+.dates-notice{font-family:var(--content-font);font-size:var(--content-size);font-weight:var(--content-weight);line-height:var(--content-line-height);letter-spacing:var(--content-letter-spacing);color:var(--content-color);margin:0 0 8px}
+@media(max-width:760px){.album-meta{font-size:12px}}
+
+/* Profile and contact sit between the two language sections. */
+.bio .profile-links{justify-content:flex-start;align-items:center;text-align:left;margin:36px 0 40px;gap:10px 28px}
+@media(max-width:760px){.bio .profile-links{margin:30px 0 34px;gap:10px 20px}}
