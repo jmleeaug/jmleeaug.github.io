@@ -2,14 +2,6 @@ window.NOTES_DATA = {
   "version": 1,
   "posts": [
     {
-      "id": "p-mwqp96tf-d1b75364",
-      "title": "test ",
-      "date": "2026-11-22",
-      "body": "test ",
-      "createdAt": "2026-11-21T17:46:24.579Z",
-      "publishedAt": "2026-11-21T17:46:35.914Z"
-    },
-    {
       "id": "p-mwqno4y9-pmpuy8",
       "title": "압도적 시간이라는 감각에서 생각난 빌리 아일리시의 인터뷰",
       "date": "2026-11-22",
