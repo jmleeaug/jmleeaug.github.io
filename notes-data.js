@@ -5,7 +5,7 @@ window.NOTES_DATA = {
       "id": "p-mwqno4y9-pmpuy8",
       "title": "압도적 시간이라는 감각에서 생각난 빌리 아일리시의 인터뷰",
       "date": "2026-11-22",
-      "body": "“The fact that I'm gonna die one day, and that everyone around me is gonna die, and no one will remember me after a certain point makes me feel so good.”\n\nhttps://youtu.be/B8DE6nKVmtI?si=vn2-GjXudxvBNLb7&t=901",
+      "body": "“The fact that I'm gonna die one day, and that everyone around me is gonna die, and no one will remember me after a certain point makes me feel so good. I could do the best thing in the world and nobody would remember it, or I can do the worst thing in the world and that won't matter because I'll die eventually. So you don't have to worry that much.”\n\nhttps://youtu.be/B8DE6nKVmtI?si=vn2-GjXudxvBNLb7&t=901",
       "publishedAt": "2026-11-21T17:02:02.769Z"
     },
     {
