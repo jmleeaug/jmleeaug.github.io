@@ -5,7 +5,7 @@ window.NOTES_DATA = {
       "id": "p-mwvkjdsl-db224d5f",
       "title": "Rufus Wainwright \"Candles\"",
       "date": "2026-11-25",
-      "body": "조금은 알 것 같고, 또 아예 모를 것도 같은, 루퍼스 웨인라이트의 말. 그러나 후렴구의 말이 심장을 누르는 것 때문에 그만 들을 수 없다. 그가 암으로 세상을 뜬 어머니 Kate McGarrigle을 생각하며 쓴 곡. 마음이 아픈 것이야 어쩔 수 없지만, 예상할 수 없는 균열과 어긋남, 비대칭과 불균형이 사람을 새로운 곳으로 옮겨 놓는 것은 맞다. 한 명의 인간은 실려 갈 뿐이고, 대신 최선을 다해서 올라타기로 할 뿐이다. 눈을 뜨면 괜찮은 곳이었으면.\n\n“It's always just that little bit more\nThat doesn't get you what you're looking for\nBut gets you where you need to go\nBut the churches have run out of candles”",
+      "body": "조금은 알 것 같고, 또 아예 모를 것도 같은, 루퍼스 웨인라이트의 말. 그러나 후렴구의 말이 심장을 누르는 것 때문에 그만 들을 수 없다. 그가 암으로 세상을 뜬 어머니 Kate McGarrigle을 생각하며 쓴 곡. 마음이 아픈 것이야 어쩔 수 없지만, 예상할 수 없는 균열과 어긋남, 비대칭과 불균형이 사람을 새로운 곳으로 옮겨 놓는 것은 맞다. 한 명의 인간은 실려 갈 뿐이고, 대신 최선을 다해서 올라타기로 할 뿐이다. 눈을 뜨면 괜찮은 곳이었으면.\n\n“It's always just that little bit more\nThat doesn't get you what you're looking for\nBut gets you where you need to go\nBut the churches have run out of candles”\n\nhttps://youtu.be/7DlzeNSkgUo?si=xs9igUxqOztT-Lzo\n",
       "createdAt": "2026-11-25T03:33:12.981Z",
       "publishedAt": "2026-11-25T03:47:59.423Z"
     },
